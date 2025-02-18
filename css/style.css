@@ -14,7 +14,7 @@ body
   font-size: 1.5rem;
   font-family: 'Montserrat', sans-serif;
 
-  background-image: url("/sentimentos2.jpg");
+  background-image: url("../img/sentimentos2.jpg");
 	background-size: 24%;
 }
 

@@ -128,7 +128,7 @@ function getStory () {
 	opcao02_01_01_02: {
 		title: "opcao02_01_01_02",
 		image: "img/botao_realidade.jpg",
-		story: "<h3 class='font-normal'>você revira o olhos e logo aciona o botão da realidade, fazendo Júlia voltar ao presente. você ja estava acostumada e sempre usa esse botão ao menos 4x ao dia... </h3>",
+		story: "<h3 class='font-normal'>Você revira o olhos e logo aciona o botão da realidade, fazendo Júlia voltar ao presente. você ja estava acostumada e sempre usa esse botão ao menos 4x ao dia... </h3>",
 		choices: [
 	 	{
 			choice: "Continuar",

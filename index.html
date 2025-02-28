@@ -33,7 +33,7 @@
 
 			//Trecho que carrega a imgaem da ficha de personagem e título (HMTL)
 			modal.style.display="block";
-			modalImg.src="img/ficha_em_branco.webp";
+			modalImg.src="img/ficha_personagem.webp";
 			modalImg.alt="Ficha em branco do OPERA RPG";
 			captionTexto.innerHTML="Ficha em Branco";
 
@@ -47,12 +47,12 @@
 <body>
 	<!-- Conteúdo da página principal, divido em cabeçalho, content e botões-->
 	<div id = "cabecalho">
-	<center><img class="main-image" src = "img/imagem_cabecalho.webp"></center>
+	<center><img class="main-image" src = "img/titulo.png"></center>
 	</div>
 	<div id = "content">
 	<h2>Bem vindo a mente de Júlia!</h2>
 	<h3 class="font-normal">No universo de Desesperadamente, você irá ser Decy a chefe da central de controle, que vive imersa dentro do cérebro de Júlia, um ambiente caótico por natureza, mas ainda mais em épocas específicas como a que enfrenta agora: os seus 20 poucos anos, a crise da faculdade de medicina, as novas responsabilidades e seus ocasionais romances.</h3>
-	<h3 class="font-normal">Você estará no cérebro de Júlia, que mais se parece com um andar de um prédio ocupado por uma empresa multinacional: um andar com uma sala infinita, pé direito baixo, com baias de trabalho a perder de vista, diferentes departamentos, com diversas pessoas trabalhando atrás de pilhas e pilhas de papeis. Ao final da enorme sala compartilhada há um grande telão que exibe aquilo que os olhos de Julia veem em tempo real.</h3>
+	<h3 class="font-normal">Você estará no cérebro de Júlia, que mais se parece com um andar de um prédio ocupado por uma empresa multinacional: uma sala infinita, pé direito baixo, com baias de trabalho a perder de vista, diferentes departamentos, com diversas pessoas trabalhando atrás de pilhas e pilhas de papeis. Ao final da enorme sala compartilhada há um grande telão que exibe aquilo que os olhos de Júlia veem em tempo real.</h3>
 	<h3 class="font-normal">Sua função é fazer o cérebro Júlia continuar funcionando, lidar com sentimentos, certezas, inseguranças, ansiedades e administrar as decisões para que Júlia continue vivendo, um dia após o outro.</h3>
 	<h3 class="font-normal">Está preparado?</h3>
 
@@ -84,12 +84,12 @@
 	  <button onclick="document.getElementById('player').volume-=0.1">Diminuir volume</button>
 	</div>
 	<!-- Trecho para carregar a música-->
-	<audio id="player" autoplay="autoplay" loop="loop">
+	<!-- <audio id="player" autoplay="autoplay" loop="loop">
 	  <source src="music/Goat-WayneJones.mp3" type="audio/mp3" />
 	  seu navegador não suporta HTML5
-	</audio>
+	</audio> -->
 
-	<audio id="player2" autoplay="autoplay" loop="loop">
+	<audio id="player" autoplay="autoplay" loop="loop">
 	  <source src="music/office-ambience.mp3" type="audio/mp3" />
 	  seu navegador não suporta HTML5
 	</audio>
@@ -97,7 +97,7 @@
 
 	<script>
 		function playAudio() {
-			const audio = document.getElementById("player2");
+			const audio = document.getElementById("player");
 			audio.play();
 		}
 	</script>

@@ -706,7 +706,7 @@ function getStory () {
 
 	creditos: {
 		title: "Créditos",
-		story: "<p><b>Autor:</b> Luiza Tani <p><b>Programação:</b> Luiza Tani, Gustavo Polonio e Leonardo Antônio de Andrade</p><p><b>Trilha Sonora: </b></p>&nbsp;&nbsp;<a href='https://www.jamendo.com/track/1273567/espionage' target='blank' class='classe1'>Trecho da Faixa Espionage, de FOX & MEW</a></h3>",
+		story: "<h2>Créditos</h2><p>Esta aventura-solo foi o trabalho final da disciplina de Introdução à Hipermídia, no semestre 2024/02. A disciplina pertence ao curso de Imagem e Som da UFSCar.</p><p><b>Autor:</b> Luiza Tani <p><b>Programação:</b> Luiza Tani, Gustavo Polonio e Leonardo Antônio de Andrade</p><p><b>Trilha Sonora: </b>Goat, de Wayne Jones. Office ambience e warning alarm de Pixabay.com.</h3>",
 		choices: [
 		{
 			choice: "Começar a Aventura!",
